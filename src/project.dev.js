@@ -57,8 +57,8 @@ window.__require = function e(t, n, r) {
         if (this.isKeyD) for (var _i = 0; _i < this.cameras.length; _i++) this.cameras[_i].node.z -= 1;
         if (this.isKeyW) for (var _i2 = 0; _i2 < this.cameras.length; _i2++) this.cameras[_i2].node.y += 1;
         if (this.isKeyS) for (var _i3 = 0; _i3 < this.cameras.length; _i3++) this.cameras[_i3].node.y -= 1;
-        if (this.isKeyO) for (var _i4 = 0; _i4 < this.cameras.length; _i4++) this.cameras[_i4].node.eulerAngle.x += .1;
-        if (this.isKeyP) for (var _i5 = 0; _i5 < this.cameras.length; _i5++) this.cameras[_i5].node.eulerAngle.x -= .1;
+        if (this.isKeyO) for (var _i4 = 0; _i4 < this.cameras.length; _i4++) this.cameras[_i4].node.rotationX += .1;
+        if (this.isKeyP) for (var _i5 = 0; _i5 < this.cameras.length; _i5++) this.cameras[_i5].node.rotationX -= .1;
         if (this.isK) for (var _i6 = 0; _i6 < this.cameras.length; _i6++) this.cameras[_i6].fov += .1;
         if (this.isL) for (var _i7 = 0; _i7 < this.cameras.length; _i7++) this.cameras[_i7].fov -= .1;
       },
@@ -131,7 +131,7 @@ window.__require = function e(t, n, r) {
           break;
 
          case cc.macro.KEY.u:
-          console.log(this.cameras[0].node.position, this.cameras[0].node.eulerAngles.x, this.cameras[0].fov);
+          console.log(this.cameras[0].node.position, this.cameras[0].node.rotationX, this.cameras[0].fov);
         }
       }
     });
@@ -501,7 +501,7 @@ window.__require = function e(t, n, r) {
         platformRoot: cc.Node
       },
       statics: {
-        PLATFORM_GROUND_Y: 340,
+        PLATFORM_GROUND_Y: 224,
         instance: null
       },
       onLoad: function onLoad() {
@@ -511,7 +511,7 @@ window.__require = function e(t, n, r) {
       },
       onTouch: function onTouch(event) {
         var ray = this.camera.getRay(event.getLocation());
-        var maxDistance = 1500;
+        var maxDistance = 2e3;
         var results = cc.director.getPhysics3DManager().raycastClosest(ray, "3d", maxDistance);
         results && results.hitPoint.y == PlatformTouch.PLATFORM_GROUND_Y && this.node.emit("click_on_ground", results.hitPoint);
       }
@@ -714,16 +714,14 @@ window.__require = function e(t, n, r) {
     cc.Class({
       extends: cc.Component,
       properties: {
-        signLabel: cc.Label
+        signLabel: cc.Label,
+        editBox: cc.EditBox
       },
-      onLoad: function onLoad() {
-        window.createSign = function(text) {
-          this.signLabel.string = text;
-        }.bind(this);
-        window.createGame = function() {
-          Helper.createSign = this.signLabel.string;
-          cc.director.loadScene("game");
-        }.bind(this);
+      onLoad: function onLoad() {},
+      onDoneHandler: function onDoneHandler() {
+        this.signLabel.string = this.editBox.string;
+        Helper.createSign = this.signLabel.string;
+        cc.director.loadScene("game");
       },
       onDestroy: function onDestroy() {
         window.createSign = null;
