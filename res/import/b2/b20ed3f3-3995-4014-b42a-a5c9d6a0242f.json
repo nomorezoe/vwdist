@@ -1,0 +1,27 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "GuestFEMALEIdle6FPS_00001",
+    "texture": "62xLSDw9lE3LPtsy8oDKon",
+    "rect": [
+      141,
+      18,
+      275,
+      447
+    ],
+    "offset": [
+      22.5,
+      14.5
+    ],
+    "originalSize": [
+      512,
+      512
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,1 +1,27 @@
-{"__type__":"cc.SpriteFrame","content":{"name":"GuestMALEIdle6FPS_00009","texture":"5bmIfoMwlOtoWCv46DH91k","rect":[133,35,266,448],"offset":[10,-3],"originalSize":[512,512],"capInsets":[0,0,0,0]}}
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "GuestMALEIdle6FPS_00009",
+    "texture": "5bmIfoMwlOtoWCv46DH91k",
+    "rect": [
+      133,
+      35,
+      266,
+      448
+    ],
+    "offset": [
+      10,
+      -3
+    ],
+    "originalSize": [
+      512,
+      512
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "GuestMaleHit6FPS00007",
+    "texture": "8e4vrXTcpMZ5Bn0GknoAr/",
+    "rect": [
+      134,
+      39,
+      268,
+      444
+    ],
+    "offset": [
+      12,
+      -5
+    ],
+    "originalSize": [
+      512,
+      512
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

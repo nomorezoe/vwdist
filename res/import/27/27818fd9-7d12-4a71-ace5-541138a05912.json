@@ -1,0 +1,27 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "GuestMALEAttack6FPS_00003",
+    "texture": "60MHrM/l5IhY1qqEEhC3kJ",
+    "rect": [
+      0,
+      74,
+      408,
+      347
+    ],
+    "offset": [
+      -52,
+      8.5
+    ],
+    "originalSize": [
+      512,
+      512
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

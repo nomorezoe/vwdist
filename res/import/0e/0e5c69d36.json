@@ -1,0 +1,275 @@
+[
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "GuestFEMALEAttack6FPS_00000",
+      "texture": "a0RzD5TodD76wBQT2fCwf4",
+      "rect": [
+        157,
+        51,
+        236,
+        385
+      ],
+      "offset": [
+        19,
+        12.5
+      ],
+      "originalSize": [
+        512,
+        512
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "GuestFEMALEAttack6FPS_00003",
+      "texture": "c7/Pyeqo5AS6Oy84/C5LUE",
+      "rect": [
+        9,
+        61,
+        379,
+        375
+      ],
+      "offset": [
+        -57.5,
+        7.5
+      ],
+      "originalSize": [
+        512,
+        512
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "GuestFEMALEAttack6FPS_00002",
+      "texture": "5dUn7HZhpECITdbShjzhnG",
+      "rect": [
+        27,
+        40,
+        275,
+        396
+      ],
+      "offset": [
+        -91.5,
+        18
+      ],
+      "originalSize": [
+        512,
+        512
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "GuestFEMALEAttack6FPS_00004",
+      "texture": "46Zd5fJP5IRoFSOb3vWCLP",
+      "rect": [
+        157,
+        51,
+        236,
+        385
+      ],
+      "offset": [
+        19,
+        12.5
+      ],
+      "originalSize": [
+        512,
+        512
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.AnimationClip",
+    "_name": "nft_guest_guy_attack",
+    "_duration": 0.8333333333333334,
+    "sample": 6,
+    "wrapMode": 0,
+    "curveData": {
+      "comps": {
+        "cc.Sprite": {
+          "spriteFrame": [
+            {
+              "frame": 0,
+              "value": {
+                "__uuid__": "04lO9bpl5Jnpxh1UTuQW/K"
+              }
+            },
+            {
+              "frame": 0.16666666666666666,
+              "value": {
+                "__uuid__": "d6ANJHzi9OxYHDAii1sCXA"
+              }
+            },
+            {
+              "frame": 0.3333333333333333,
+              "value": {
+                "__uuid__": "31EUHJNhpE2rG8BDRxN2iO"
+              }
+            },
+            {
+              "frame": 0.5,
+              "value": {
+                "__uuid__": "1aWrt2FS9Bh7SIF18nbqwF"
+              }
+            },
+            {
+              "frame": 0.6666666666666666,
+              "value": {
+                "__uuid__": "b5AWZBfctBVKbNg4hs68lM"
+              }
+            }
+          ]
+        }
+      },
+      "paths": {
+        "signLabel": {
+          "props": {
+            "position": [
+              {
+                "frame": 0,
+                "value": [
+                  39.789,
+                  177.444,
+                  0
+                ],
+                "curve": "constant"
+              },
+              {
+                "frame": 0.16666666666666666,
+                "value": [
+                  39.789,
+                  176.589,
+                  0
+                ],
+                "curve": "constant"
+              },
+              {
+                "frame": 0.3333333333333333,
+                "value": [
+                  38.199,
+                  180.307,
+                  0
+                ],
+                "curve": "constant"
+              },
+              {
+                "frame": 0.5,
+                "value": [
+                  35.685,
+                  180.814,
+                  0
+                ],
+                "curve": "constant"
+              },
+              {
+                "frame": 0.6666666666666666,
+                "value": [
+                  36.388,
+                  179.654,
+                  0
+                ],
+                "curve": "constant"
+              }
+            ],
+            "eulerAngles": [
+              {
+                "frame": 0,
+                "value": {
+                  "__type__": "cc.Vec3"
+                },
+                "curve": "constant"
+              },
+              {
+                "frame": 0.16666666666666666,
+                "value": {
+                  "__type__": "cc.Vec3"
+                },
+                "curve": "constant"
+              },
+              {
+                "frame": 0.3333333333333333,
+                "value": {
+                  "__type__": "cc.Vec3",
+                  "z": 1.001
+                },
+                "curve": "constant"
+              },
+              {
+                "frame": 0.5,
+                "value": {
+                  "__type__": "cc.Vec3",
+                  "z": 2
+                },
+                "curve": "constant"
+              },
+              {
+                "frame": 0.6666666666666666,
+                "value": {
+                  "__type__": "cc.Vec3",
+                  "z": 1
+                },
+                "curve": "constant"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "GuestFEMALEAttack6FPS_00001",
+      "texture": "b7owz9QI1G+Y71DtyuXR2r",
+      "rect": [
+        61,
+        37,
+        253,
+        399
+      ],
+      "offset": [
+        -68.5,
+        19.5
+      ],
+      "originalSize": [
+        512,
+        512
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  }
+]

@@ -1,1 +1,27 @@
-{"__type__":"cc.SpriteFrame","content":{"name":"NFT - IDLE - Grunge Ninja Guy 040","texture":"6eFPmsVI9N3YXHPQZuYy9m","rect":[135,39,262,442],"offset":[10,-4],"originalSize":[512,512],"capInsets":[0,0,0,0]}}
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "NFT - IDLE - Grunge Ninja Guy 040",
+    "texture": "6eFPmsVI9N3YXHPQZuYy9m",
+    "rect": [
+      135,
+      39,
+      262,
+      442
+    ],
+    "offset": [
+      10,
+      -4
+    ],
+    "originalSize": [
+      512,
+      512
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

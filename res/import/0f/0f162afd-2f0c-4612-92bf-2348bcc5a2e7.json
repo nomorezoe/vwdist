@@ -1,0 +1,27 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "GuestMALEFloat6FPS_00002",
+    "texture": "88KdLo5AdBs6NerS9r+Wgi",
+    "rect": [
+      159,
+      15,
+      222,
+      337
+    ],
+    "offset": [
+      14,
+      72.5
+    ],
+    "originalSize": [
+      512,
+      512
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

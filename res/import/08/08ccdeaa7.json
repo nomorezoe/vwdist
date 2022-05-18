@@ -1,0 +1,417 @@
+[
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "GuestFEMALEIdle6FPS_00002",
+      "texture": "a7U0F2yFBHP4cDmCQp3qJn",
+      "rect": [
+        142,
+        18,
+        274,
+        447
+      ],
+      "offset": [
+        23,
+        14.5
+      ],
+      "originalSize": [
+        512,
+        512
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "GuestFEMALEIdle6FPS_00009",
+      "texture": "deLQhKJdlChrhC9sSl+K3y",
+      "rect": [
+        141,
+        18,
+        275,
+        447
+      ],
+      "offset": [
+        22.5,
+        14.5
+      ],
+      "originalSize": [
+        512,
+        512
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "GuestFEMALEIdle6FPS_00004",
+      "texture": "33CXxjde9P4IZv7igBZyf3",
+      "rect": [
+        142,
+        20,
+        275,
+        445
+      ],
+      "offset": [
+        23.5,
+        13.5
+      ],
+      "originalSize": [
+        512,
+        512
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "GuestFEMALEIdle6FPS_00003",
+      "texture": "51fFUV/TBBGI/UvTB+Pl5r",
+      "rect": [
+        142,
+        19,
+        274,
+        446
+      ],
+      "offset": [
+        23,
+        14
+      ],
+      "originalSize": [
+        512,
+        512
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "GuestFEMALEIdle6FPS_00000",
+      "texture": "57W/uInkxAAruQqQlqWLkB",
+      "rect": [
+        141,
+        17,
+        275,
+        448
+      ],
+      "offset": [
+        22.5,
+        15
+      ],
+      "originalSize": [
+        512,
+        512
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "GuestFEMALEIdle6FPS_00008",
+      "texture": "4fZ1IhAE9NnLeJKyPYAXBQ",
+      "rect": [
+        142,
+        18,
+        274,
+        447
+      ],
+      "offset": [
+        23,
+        14.5
+      ],
+      "originalSize": [
+        512,
+        512
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "GuestFEMALEIdle6FPS_00005",
+      "texture": "0eleNPXzFPo5nnqys+c/I5",
+      "rect": [
+        143,
+        20,
+        274,
+        445
+      ],
+      "offset": [
+        24,
+        13.5
+      ],
+      "originalSize": [
+        512,
+        512
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "GuestFEMALEIdle6FPS_00007",
+      "texture": "e9Hp4SSwdLyILI6OcXp0FK",
+      "rect": [
+        142,
+        19,
+        274,
+        446
+      ],
+      "offset": [
+        23,
+        14
+      ],
+      "originalSize": [
+        512,
+        512
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "GuestFEMALEIdle6FPS_00006",
+      "texture": "9fMsjn/D5BirBpBGsI7/6e",
+      "rect": [
+        142,
+        20,
+        275,
+        445
+      ],
+      "offset": [
+        23.5,
+        13.5
+      ],
+      "originalSize": [
+        512,
+        512
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.AnimationClip",
+    "_name": "nft_guest_guy_idle",
+    "_duration": 1.6666666666666667,
+    "sample": 6,
+    "wrapMode": 2,
+    "curveData": {
+      "comps": {
+        "cc.Sprite": {
+          "spriteFrame": [
+            {
+              "frame": 0,
+              "value": {
+                "__uuid__": "33NGNkhNhOj7LB4T4w583X"
+              }
+            },
+            {
+              "frame": 0.16666666666666666,
+              "value": {
+                "__uuid__": "02HXH/YAdACraIDmvJN6Xe"
+              }
+            },
+            {
+              "frame": 0.3333333333333333,
+              "value": {
+                "__uuid__": "00bPaVyVRMho3IuiO4VPM+"
+              }
+            },
+            {
+              "frame": 0.5,
+              "value": {
+                "__uuid__": "20k59XxFFNCJKX/04+vYo7"
+              }
+            },
+            {
+              "frame": 0.6666666666666666,
+              "value": {
+                "__uuid__": "13lHJjHK1LoInh6t/Z5twc"
+              }
+            },
+            {
+              "frame": 0.8333333333333334,
+              "value": {
+                "__uuid__": "8ct29c+ahLxLKef31xmf+t"
+              }
+            },
+            {
+              "frame": 1,
+              "value": {
+                "__uuid__": "a5Ye5dH4FKFbaKUTuwGIgF"
+              }
+            },
+            {
+              "frame": 1.1666666666666667,
+              "value": {
+                "__uuid__": "97Gz3ct0tKvL622wvcI9VI"
+              }
+            },
+            {
+              "frame": 1.3333333333333333,
+              "value": {
+                "__uuid__": "44fRw80/VBA6kOFKHVyPFj"
+              }
+            },
+            {
+              "frame": 1.5,
+              "value": {
+                "__uuid__": "44fRw80/VBA6kOFKHVyPFj"
+              }
+            }
+          ]
+        }
+      },
+      "paths": {
+        "signLabel": {
+          "props": {
+            "position": [
+              {
+                "frame": 0,
+                "value": [
+                  39.789,
+                  179.713,
+                  0
+                ],
+                "curve": "constant"
+              },
+              {
+                "frame": 0.16666666666666666,
+                "value": [
+                  40.039,
+                  179.328,
+                  0
+                ],
+                "curve": "constant"
+              },
+              {
+                "frame": 0.3333333333333333,
+                "value": [
+                  39.889,
+                  178.426,
+                  0
+                ],
+                "curve": "constant"
+              },
+              {
+                "frame": 0.5,
+                "value": [
+                  40.361,
+                  177.635,
+                  0
+                ],
+                "curve": "constant"
+              },
+              {
+                "frame": 0.6666666666666666,
+                "value": [
+                  40.889,
+                  178.038,
+                  0
+                ],
+                "curve": "constant"
+              },
+              {
+                "frame": 0.8333333333333334,
+                "value": [
+                  40.494,
+                  177.071,
+                  0
+                ],
+                "curve": "constant"
+              },
+              {
+                "frame": 1,
+                "value": [
+                  40.889,
+                  178.316,
+                  0
+                ],
+                "curve": "constant"
+              },
+              {
+                "frame": 1.1666666666666667,
+                "value": [
+                  40.494,
+                  177.518,
+                  0
+                ],
+                "curve": "constant"
+              },
+              {
+                "frame": 1.3333333333333333,
+                "value": [
+                  40.098,
+                  179.276,
+                  0
+                ],
+                "curve": "constant"
+              },
+              {
+                "frame": 1.5,
+                "value": [
+                  39.703,
+                  178.317,
+                  0
+                ]
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+]

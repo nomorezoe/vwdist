@@ -1,1 +1,27 @@
-{"__type__":"cc.SpriteFrame","content":{"name":"NFT - Walk Cycle - Grunge Ninja Guy 040","texture":"1b+NHByfhF4YXqzHJFmMMS","rect":[147,40,260,441],"offset":[21,-4.5],"originalSize":[512,512],"capInsets":[0,0,0,0]}}
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "NFT - Walk Cycle - Grunge Ninja Guy 040",
+    "texture": "1b+NHByfhF4YXqzHJFmMMS",
+    "rect": [
+      147,
+      40,
+      260,
+      441
+    ],
+    "offset": [
+      21,
+      -4.5
+    ],
+    "originalSize": [
+      512,
+      512
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,1 +1,27 @@
-{"__type__":"cc.SpriteFrame","content":{"name":"GuestMALEWalk6FPS_00001","texture":"24eefQgElFIobaB8U9exaP","rect":[133,42,266,439],"offset":[10,-5.5],"originalSize":[512,512],"capInsets":[0,0,0,0]}}
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "GuestMALEWalk6FPS_00001",
+    "texture": "24eefQgElFIobaB8U9exaP",
+    "rect": [
+      133,
+      42,
+      266,
+      439
+    ],
+    "offset": [
+      10,
+      -5.5
+    ],
+    "originalSize": [
+      512,
+      512
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

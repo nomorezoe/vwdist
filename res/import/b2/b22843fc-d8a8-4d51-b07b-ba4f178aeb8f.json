@@ -1,0 +1,27 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "GuestMALEJump6FPS_00000",
+    "texture": "9fsDndBL1CZZn2Ccdksi/5",
+    "rect": [
+      167,
+      97,
+      194,
+      323
+    ],
+    "offset": [
+      8,
+      -2.5
+    ],
+    "originalSize": [
+      512,
+      512
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

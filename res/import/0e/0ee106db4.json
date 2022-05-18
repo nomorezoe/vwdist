@@ -1,0 +1,235 @@
+[
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "GuestFEMALEJump6FPS_00002",
+      "texture": "20qi9onpROG5kLudmPX2Az",
+      "rect": [
+        134,
+        8,
+        300,
+        458
+      ],
+      "offset": [
+        28,
+        104.5
+      ],
+      "originalSize": [
+        512,
+        683
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "GuestFEMALEJump6FPS_00000",
+      "texture": "d1dQWLytFDfI5WkRIHRQKf",
+      "rect": [
+        141,
+        103,
+        275,
+        448
+      ],
+      "offset": [
+        22.5,
+        14.5
+      ],
+      "originalSize": [
+        512,
+        683
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "GuestFEMALEJump6FPS_00004",
+      "texture": "91ROJ5CM9FzIagesqu3lY9",
+      "rect": [
+        145,
+        115,
+        246,
+        436
+      ],
+      "offset": [
+        12,
+        8.5
+      ],
+      "originalSize": [
+        512,
+        683
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.AnimationClip",
+    "_name": "nft_guest_guy_jump",
+    "_duration": 0.8333333333333334,
+    "sample": 6,
+    "wrapMode": 0,
+    "curveData": {
+      "comps": {
+        "cc.Sprite": {
+          "spriteFrame": [
+            {
+              "frame": 0,
+              "value": {
+                "__uuid__": "17xXUOVpBJO541v6WIVUN+"
+              }
+            },
+            {
+              "frame": 0.16666666666666666,
+              "value": {
+                "__uuid__": "c5iE0BLwdMMJhij/BoRUg/"
+              }
+            },
+            {
+              "frame": 0.3333333333333333,
+              "value": {
+                "__uuid__": "06yzuxXENJELnwTmj4t7sj"
+              }
+            },
+            {
+              "frame": 0.5,
+              "value": {
+                "__uuid__": "b4PfC1JXNAT45EkR0Huv16"
+              }
+            },
+            {
+              "frame": 0.6666666666666666,
+              "value": {
+                "__uuid__": "42aVcier9K57lSp51CvfAH"
+              }
+            }
+          ]
+        }
+      },
+      "paths": {
+        "signLabel": {
+          "props": {
+            "position": [
+              {
+                "frame": 0,
+                "value": [
+                  39.789,
+                  179.713,
+                  0
+                ],
+                "curve": "constant"
+              },
+              {
+                "frame": 0.16666666666666666,
+                "value": [
+                  40.039,
+                  179.328,
+                  0
+                ],
+                "curve": "constant"
+              },
+              {
+                "frame": 0.3333333333333333,
+                "value": [
+                  39.889,
+                  178.426,
+                  0
+                ],
+                "curve": "constant"
+              },
+              {
+                "frame": 0.5,
+                "value": [
+                  40.361,
+                  177.635,
+                  0
+                ],
+                "curve": "constant"
+              },
+              {
+                "frame": 0.6666666666666666,
+                "value": [
+                  40.889,
+                  178.038,
+                  0
+                ],
+                "curve": "constant"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "GuestFEMALEJump6FPS_00003",
+      "texture": "e5QZCqKU9HOZMMUAGVJIcn",
+      "rect": [
+        143,
+        109,
+        266,
+        442
+      ],
+      "offset": [
+        20,
+        11.5
+      ],
+      "originalSize": [
+        512,
+        683
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "GuestFEMALEJump6FPS_00001",
+      "texture": "41Jv72O5hHa7r0+3Z00gvT",
+      "rect": [
+        147,
+        124,
+        252,
+        427
+      ],
+      "offset": [
+        17,
+        4
+      ],
+      "originalSize": [
+        512,
+        683
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  }
+]
